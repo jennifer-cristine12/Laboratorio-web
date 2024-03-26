@@ -1,9 +1,11 @@
 form{
     width: 500px;
-    margin:0 auto;
+    margin: 0 auto;
+    margin-top: 0;
     text-align: left;
+    
 }
 input, textarea{
     display:block;
-    margin-top:80px;
+    margin-top:8px;
 }
