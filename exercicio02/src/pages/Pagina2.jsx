@@ -1,15 +1,10 @@
 import React from 'react'
-import ShowUserName from '../components/ShowUserName'
-import UserDetails from '../components/UserDetails'
+
+
 import CarDetails from '../components/CarDetails'
 const Pagina2 = () => {
   
-  const users = [
-    { id: 1001, nome: "Tom", idade: 19, profissao: "Só dorme" },
-    { id: 1002, nome: "Lisa", idade: 17, profissao: "Aprendiz de inspetora" },
-    { id: 1003, nome: "Jão", idade: 25, profissao: "Desenvolvedor" }
 
-  ]
   const marca = [
     { id: 1001, marca: "Fiat", km: 150, cor: "azul", ano: 2019 },
     { id: 1002, marca: "Volksvagen", km: 230, cor: "vermelho", ano: 2010 },
@@ -20,8 +15,10 @@ const Pagina2 = () => {
   ]
   return (
     <>
-      <div>
-
+      
+      <main>
+    <section>
+  
         {marca.map((carro) => (
           <CarDetails
             key={carro.id}
@@ -32,7 +29,9 @@ const Pagina2 = () => {
         ))}
 
 
-      </div>
+
+      </section>
+</main>
 
     </>
   )
