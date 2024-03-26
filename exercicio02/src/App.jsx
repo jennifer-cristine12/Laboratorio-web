@@ -8,6 +8,7 @@ import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import Pagina2 from "./pages/Pagina2"
 import Pagina3 from "./pages/Pagina3"
+import Form from "./pages/Form"
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Route path="/pagina2" element={<Pagina2/>}/>
     
       <Route path="/pagina3" element={<Pagina3/>}/>
+      <Route path="/formulario" element={<Form/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
